@@ -51,8 +51,8 @@ h1{
 .faq.active::before{
     color:#3498db;
     top:-10px;
-    left:-30px
-    transform:rotae(180deg);
+    left:-30px;
+    transform: rotateY(180deg);
 }
 
 
@@ -68,3 +68,12 @@ h1{
 .faq.active .faq-text{
     display:block;
 }
+
+
+.faq_toggle{
+    background:transparent;
+    border: 0;
+    border-radius: 50%;
+    display: flex;
+}
+
