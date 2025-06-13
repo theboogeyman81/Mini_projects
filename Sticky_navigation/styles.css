@@ -49,3 +49,33 @@ body{
     padding: 7px 15px;
     transition: all 0.3s ease-in-out;
 }
+
+
+.nav.active{
+    background-color: aliceblue;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.nav.active a{
+    color:black;
+
+}
+
+.nav.active .container{
+    padding:10px 0;
+}
+
+.hero{
+    background-image: url('https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: bottom 20px ;
+    z-index: -2;
+}
