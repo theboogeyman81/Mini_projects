@@ -65,6 +65,13 @@ body{
     padding:10px 0;
 }
 
+.nav a.active,
+.nav a:hover{
+    color:tomato;
+    font-weight:bold;
+
+}
+
 .hero{
     background-image: url('https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
     background-repeat: no-repeat;
@@ -79,3 +86,37 @@ body{
     margin: bottom 20px ;
     z-index: -2;
 }
+
+.hero::before{
+    content:'';
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: hsl(0, 0, 0,0.5);
+    z-index: -1;
+    
+}
+
+.hero h1{
+    font-size: 46px ;
+    margin: -20px 0 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.content h2,
+.content h3 {
+  font-size: 150%;
+  margin: 20px 0;
+}
+
+.content p{
+    font-size:150%;
+    margin: 20px 0;
+}
+
