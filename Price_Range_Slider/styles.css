@@ -36,7 +36,7 @@ body{
 }
 
 
-.custom-wrapper{
+.custom_wrapper{
     margin:0;
     width:70%;
     padding: 0px 25px 40px;
@@ -52,3 +52,64 @@ body{
     padding:20px;
 }
 
+.price_input_contianer{
+    width: 100%;
+}
+
+.price_input .price_field{
+    display:flex;
+    margin-bottom: 22px;
+}
+
+
+.price_field span{
+    margin-right: 10px;
+    margin-bottom: 6px;
+    font-size:17px;
+}
+
+.price_field input{
+    flex:1;
+    height:35px;
+    font-size:15px;
+    font-family: "DM Sans" , sans-serif;
+    border-radius: 9px;
+    text-align: center ;
+    border:0px;
+    background-color: #e4e4e4;
+}
+
+.price_input{
+    width: 100%;
+    font-size: 19px;
+    color:#555;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance:none;
+    margin: 0;
+}
+
+.slider{
+    width:100%
+}
+
+.slider{
+    height:6px;
+    position: relative;
+    background: #e4e4e4;
+}
+
+.slider .price_slider {
+    height: 100%;
+    left: 25%;
+    right: 15%;
+    position: absolute;
+    border-radius: 5px;
+    background: #01940b;
+}
+
+.range_input{
+    position: relative;
+}
